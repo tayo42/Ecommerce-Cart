@@ -46,13 +46,12 @@ $product = $user_function->select_with_order("products", $field_name, "p_id");
                         </li>
                         <form method="post" class="submitpro">
                         <li class="list-group-item">
-                                <div class="form-group row mb-0">
-                                    <label for="staticEmail" class="col-6 col-form-label">Quantity : </label>
-                                    <div class="col-6">
-                                        <input type="number" class="form-control pro-qty" min="1" max="100" value="1" required>
-                                    </div>
+                            <div class="form-group row mb-0">
+                                <label for="staticEmail" class="col-6 col-form-label">Quantity : </label>
+                                <div class="col-6">
+                                    <input type="number" class="form-control pro-qty" min="1" max="100" value="1" required>
                                 </div>
-                            
+                            </div>
                         </li>
                         <li class="list-group-item">
                             <button type="submit" class="btn btn-sm bg-danger text-light pc_data" data-dataid="<?php echo $product_data['p_number']; ?>">Add To Cart</button>
